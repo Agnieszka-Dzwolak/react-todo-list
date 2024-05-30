@@ -1,0 +1,39 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+input {
+  padding: 10px;
+  flex-grow: 1;
+  margin-right: 6px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  min-width: 0;
+}
+
+button,
+.btn-submit {
+  padding: 10px 20px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover,
+.btn-submit:hover {
+  background-color: #218838;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
